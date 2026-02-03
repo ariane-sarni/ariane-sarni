@@ -13,20 +13,20 @@ Systems engineer focused on C++ performance, embedded firmware, and autonomous v
 
 ### Active Projects
 
-**[`cpp-python-interop`](#)**
-Tools for analyzing memory safety across Python/C++ boundaries.
-* Building custom allocators and pointer analysis tools to handle non-deterministic latency in real-time robotics loops.
-* *Focus:* C++, Python C-API, Pybind11.
+**[`zero-copy-ring-buffer`](https://github.com/ariane-sarni/zero-copy-ring-buffer)**
+Zero-copy Inter-Process Communication (IPC) library using Linux Shared Memory.
+* Implements a lock-free ring buffer to pass high-bandwidth data between processes without kernel-space copying.
+* *Focus:* Lock-free concurrency (C++20 atomics), Low-latency architecture.
 
-**[`linux-engine-opt`](#)**
-Performance modifications for legacy proprietary game engines on Linux.
-* Debugging driver compatibility and optimizing asset pipelines for CachyOS/Arch.
-* *Focus:* Vulkan, Wine/Proton, Systems Profiling.
+**[`cuda-fast-tracker`](#)**
+Real-time computer vision feature tracker written in raw CUDA.
+* Custom kernel implementation benchmarking 60+ FPS on 4K video streams by bypassing standard library overhead.
+* *Focus:* GPU acceleration, SIMD, Parallel memory access.
 
-**[`autonomous-testbed`](#)**
-Custom-fabricated drone platform for hardware validation.
-* Quad-rotor build with custom power distribution and Jetson companion computer integration.
-* *Focus:* Hardware fabrication, Electrical wiring, Firmware integration.
+**[`cpp-lockfree-arena`](#)**
+Deterministic memory allocator for real-time embedded systems.
+* Enforces O(1) allocation and contiguous memory layout to eliminate heap fragmentation and jitter in control loops.
+* *Focus:* Memory safety, Cache locality, Embedded constraints.
 
 ---
 
