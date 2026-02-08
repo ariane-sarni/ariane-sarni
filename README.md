@@ -2,7 +2,8 @@
 **Software Engineer (Systems & Robotics)**
 San Jose, CA
 
-Systems engineer focused on C++ performance, embedded firmware, and autonomous vehicle infrastructure. Previously at **Skyline Nav AI** and **UCSC**.
+Systems engineer focused on C++ performance, embedded firmware, and autonomous vehicle infrastructure. Previously at **LKC Technologies**, 
+**Skyline Nav AI** and **UCSC**.
 
 ### Technologies
 * **Languages:** C++, Python, C, CUDA, Bash
