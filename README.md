@@ -24,10 +24,8 @@ Real-time computer vision feature tracker written in raw CUDA.
 * Custom kernel implementation benchmarking 60+ FPS on 4K video streams by bypassing standard library overhead.
 * *Focus:* GPU acceleration, SIMD, Parallel memory access.
 
-**[`cpp-lockfree-arena`](https://github.com/ariane-sarni/cpp-lockfree-arena)**
-Deterministic memory allocator for real-time embedded systems.
-* Enforces O(1) allocation and contiguous memory layout to eliminate heap fragmentation and jitter in control loops.
-* *Focus:* Memory safety, Cache locality, Embedded constraints.
+**[`dream-engine`](https://github.com/ariane-sarni/dream-engine)**
+Game engine made in C++.
 
 ---
 
